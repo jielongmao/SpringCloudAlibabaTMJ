@@ -1,0 +1,24 @@
+server:
+  port: 9001
+Spring:
+  application:
+    name: nacos-provider1
+  cloud:
+#    discovery:
+
+    nacos:
+      discovery:
+#        server-addr: http://192.168.56.200:81
+        server-addr: http://localhost:8848
+        port: 81
+        password: 123456
+
+#    discovery:
+#
+#      server-addr:
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'

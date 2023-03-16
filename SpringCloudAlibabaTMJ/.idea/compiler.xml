@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudAlibaba-Nacos-9001" />
+        <module name="cloudAlibaba-Nacos-9002" />
+        <module name="cloudAlibaba-Consumer-Nacos-8083" />
+        <module name="cloudAlibaba-config-3377" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudalibaba-consumer-nacos-8083" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloudAlibabaTMJ" options="-parameters" />
+      <module name="cloudAlibaba-Consumer-Nacos-8083" options="-parameters" />
+      <module name="cloudAlibaba-Nacos-9001" options="-parameters" />
+      <module name="cloudAlibaba-Nacos-9002" options="-parameters" />
+      <module name="cloudAlibaba-config-3377" options="-parameters" />
+      <module name="cloudalibaba-consumer-nacos-8083" options="-parameters" />
+    </option>
+  </component>
+</project>

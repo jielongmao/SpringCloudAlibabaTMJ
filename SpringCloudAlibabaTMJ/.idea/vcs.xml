@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cloudAlibaba-Nacos-9001" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cloudAlibaba-Nacos-9002" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cloudAlibaba-config-3377" vcs="Git" />
+  </component>
+</project>

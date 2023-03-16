@@ -1,0 +1,16 @@
+server:
+  port: 9002
+Spring:
+  application:
+    name: nacos-provider2
+  cloud:
+    discovery:
+      server-addr: localhost:8848
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
+
+
